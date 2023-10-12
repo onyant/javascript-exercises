@@ -2,7 +2,7 @@ const removeFromArray = function(list,...numbers) {
     let newlist=[];
     
     list.forEach(element => {
-        if(!list.includes(element)){
+        if(!numbers.includes(element)){
             newlist.push(element)
         }
     }
